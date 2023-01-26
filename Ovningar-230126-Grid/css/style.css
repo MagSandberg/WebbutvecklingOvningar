@@ -4,7 +4,7 @@ body {
 }
 
 a {
-    color: #2d464b;
+    color: #1d2e31;
     text-decoration: none;
 }
 
@@ -20,7 +20,7 @@ p {
 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    color: #2d464b;
+    color: #1d2e31;
 }
 
 h2:hover {
@@ -50,28 +50,28 @@ h2:hover {
 }
 
 .container > div:nth-child(1) {
-    background: #c0a4b4;
+    background: #e6d6de;
 }
 
-.container > div:nth-child(3) {
+.container > div:nth-child(2) {
     background: #d5e0da;
 }
 
-.container > div:nth-child(5) {
+.container > div:nth-child(3) {
     background: #c0b9a4;
 }
 
 .container > div:hover:nth-child(1) {
     border: 8px solid #727272;
-    background-color: #d1bdd6;
+    background-color: #d1c2d4;
 }
 
-.container > div:hover:nth-child(3) {
+.container > div:hover:nth-child(2) {
     border: 8px solid #727272;
     background-color: #aeccc1;
 }
 
-.container > div:hover:nth-child(5) {
+.container > div:hover:nth-child(3) {
     border: 8px solid #727272;
     background-color: #ccc8ae;
 }
