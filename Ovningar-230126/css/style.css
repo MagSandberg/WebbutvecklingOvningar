@@ -30,11 +30,16 @@ h2:hover {
 .container {
     padding: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 1rem;
-    min-width: 500px;
 }
 
+@media (min-width: 700px) {
+    .container {
+        flex-direction: row;
+    }
+}
 .container > div {
     flex: 1;
     border: 8px solid #FFF;
