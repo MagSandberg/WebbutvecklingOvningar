@@ -4,12 +4,12 @@ body {
 }
 
 a {
-    color: whitesmoke;
+    color: #2d464b;
     text-decoration: none;
 }
 
 a:hover {
-    color: #2d464b;
+    color: #FFFFFF;
 }
 
 p {
@@ -48,7 +48,7 @@ h2:hover {
 }
 
 .container > div:nth-child(3) {
-    background: #a4c0af;
+    background: #d5e0da;
 }
 
 .container > div:nth-child(5) {
@@ -57,7 +57,7 @@ h2:hover {
 
 .container > div:hover:nth-child(1) {
     border: 8px solid #727272;
-    background-color: #c6aecc;
+    background-color: #d1bdd6;
 }
 
 .container > div:hover:nth-child(3) {
